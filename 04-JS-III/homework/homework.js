@@ -29,10 +29,10 @@ function incrementarPorUno(array) {
   // y devuelve el array
   // Tu código:
   
- for ( i=0; i=array.length; i++){
+ for (var i=0; i<array.length; i++){
         array[i]=array[i]+1
  } 
-   return array;
+return array;
    
 }
 
@@ -88,7 +88,7 @@ function agregarNumeros(numeros) {
   // Suma todos los enteros y devuelve el valor
   // Tu código:
   let suma = 0;
-  for ( i=0; i<numeros.length; i++){
+  for (let i=0; i<numeros.length; i++){
       
     suma  = numeros[i]+suma //9
   }
